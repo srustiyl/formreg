@@ -1,0 +1,86 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 700px;
+  margin: 40px auto;
+  background: #f2f9fc;
+  padding: 16px;
+}
+nav {
+  text-align: center;
+  margin-bottom: 32px;
+}
+nav a {
+  color: #357ded;
+  margin: 0 12px;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-bottom: 2px solid transparent;
+  padding-bottom: 2px;
+  transition: border .2s;
+}
+nav a.active,
+nav a:hover {
+  border-bottom: 2px solid #357ded;
+}
+section {
+  background: #fff;
+  border-radius: 10px;
+  padding: 32px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.09);
+}
+
+h1 {
+  color: #357ded;
+  margin-bottom: 24px;
+  text-align: center;
+}
+label {
+  display: block;
+  margin: 14px 0 4px 0;
+  font-weight: 500;
+}
+input[type="text"],
+input[type="email"],
+input[type="date"],
+select,
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #c8dafc;
+  border-radius: 6px;
+  margin-bottom: 12px;
+  font-size: 1rem;
+}
+input[type="radio"] {
+  margin-right: 6px;
+}
+label.inline {
+  display: inline-block;
+  margin-right: 18px;
+}
+.btn-main {
+  background: #357ded;
+  color: #fff;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 18px;
+}
+.btn-main:hover {
+  background: #274eaa;
+}
+.display-data {
+  background: #e4f2ff;
+  border: 1px solid #83b0eb;
+  border-radius: 8px;
+  padding: 20px 28px;
+  margin-top: 14px;
+  font-size: 1.1rem;
+}
+.display-data h2 {
+  color: #1963a9;
+  margin-top: 0;
+}
